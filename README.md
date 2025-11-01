@@ -17,3 +17,13 @@ So far this contains configs for:
 `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles_public/ --work-tree=$HOME'`
 
 `dotfiles checkout`
+
+
+### installing a new enough vim for this setup:
+
+``` bash
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt update
+sudo apt install neovim -y
+```
