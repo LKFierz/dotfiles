@@ -4,8 +4,8 @@ alias oldvim='vim'
 alias vim='nvim'
 
 
-alias dotfiles='/usr/bin/git --git-dir=/home/$USER/dotfiles --work-tree=$HOME'
-export OSH='$HOME/.oh-my-bash/'
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+export OSH="$HOME/.oh-my-bash/"
 OSH_THEME="font"
 
 
