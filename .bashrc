@@ -1,4 +1,4 @@
-bind -s 'set completion-ignore-case on'
+set completion-ignore-case on
 
 alias oldvim='vim'
 alias vim='nvim'
@@ -27,3 +27,4 @@ source "$OSH"/oh-my-bash.sh
 
 
 alias mount_windows='sudo mount -t ntfs3 /dev/nvme0n1p3 /mnt/windows'
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
