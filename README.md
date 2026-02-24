@@ -10,13 +10,10 @@ So far this contains configs for:
 
 ## Setup on New Device
 
-`git clone --bare git@github.com:LKFierz/dotfiles.git $HOME/dotfiles`
-
-`dotfiles config --local status.showUntrackedFiles no`
-
-`alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles_public/ --work-tree=$HOME'`
-
-`dotfiles checkout`
+git clone --bare git@github.com:LKFierz/dotfiles.git $HOME/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles config --local status.showUntrackedFiles no
+dotfiles checkout
 
 
 ### installing a new enough vim for this setup:
